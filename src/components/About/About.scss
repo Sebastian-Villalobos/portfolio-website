@@ -28,6 +28,15 @@
         object-fit: cover;
     }
 
+    .bold-text {
+        color: var(--white-color);
+    }
+
+    .p-text {
+        color: var(--gray-color);
+    }
+
+
     @media screen and (min-width: 2000px) {
         width: 370px;
         margin: 2rem 4rem;

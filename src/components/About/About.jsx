@@ -13,7 +13,7 @@ const abouts = [
 const About = () => {
   return (
     <>
-      <h2 className='head-text'>Sé Que Un <span>Buen Diseño</span><br />Significa Un <span>Buen Negocio</span></h2>
+      <h2 className='head-text' style={{ color: 'var(--white-color)' }}>Sé Que Un <span>Buen Diseño</span><br />Significa Un <span>Buen Negocio</span></h2>
 
       <div className='app__profiles'>
         {abouts.map((about, index) => (
