@@ -5,8 +5,9 @@ import { images } from '../../constants'
 import './About.scss';
 
 const abouts = [
-  { title: 'Front-End Web Development', description: 'I am a good Front-End Developer.', imgUrl: images.about01 },
-  { title: 'UX/UI Design', description: 'I am working on my UX/UI road', imgUrl: images.about02 }
+  { title: 'Desarrollo Front-End', description: 'Creo aplicaciones Web de diseño amigable', imgUrl: images.about01 },
+  { title: 'Diseño UX/UI', description: 'Trabajando en mi camino en UX/UI', imgUrl: images.about02 },
+  { title: 'AutoDidacta', description: 'Determinado con el buen Diseño Web', imgUrl: images.about03 }
 ];
 
 const About = () => {
@@ -27,7 +28,7 @@ const About = () => {
             <h2 className='bold-text' style={{ marginTop: 20 }}>{about.title}</h2>
             <p className='p-text' style={{ marginTop: 10 }}>{about.description}</p>
           </motion.div>
-        ))}
+        ))};
       </div>
     </>
   )
