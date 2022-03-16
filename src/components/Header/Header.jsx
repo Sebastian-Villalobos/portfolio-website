@@ -1,5 +1,6 @@
 import React from 'react';
 import BgAnimation from '../BgAnimation/BgAnimation';
+import { AppWrap } from '../../wrapper';
 
 import './Header.scss';
 
@@ -19,8 +20,8 @@ const Header = () => (
             </div>
           </div>
           <p className="app__desc">
-            Bienvenido a mi humilde Portfolio, te presento aquí un poco de las habilidades que he ido aprendiendo en <br />
-            este arduo camino. Espero encuentres lo necesario para ese trabajo que tanto ansío. <br />
+            Bienvenido a mi humilde Portfolio, te presento aquí un poco de las habilidades que he ido aprendiendo <br />
+            en este arduo camino. Espero tener lo necesario para ese trabajo que tanto ansío. 
           </p>
         </div>
       </div>
@@ -31,4 +32,4 @@ const Header = () => (
   </>
 );
 
-export default Header;
+export default AppWrap(Header, 'home') ;

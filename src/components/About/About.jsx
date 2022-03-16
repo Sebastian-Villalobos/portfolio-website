@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+import { AppWrap } from '../../wrapper';
 import { images } from '../../constants'
 import './About.scss';
 
@@ -13,7 +14,7 @@ const abouts = [
 const About = () => {
   return (
     <>
-      <h2 className='head-text' style={{ color: 'var(--white-color)' }}>Sé Que Un <span>Buen Diseño</span><br />Significa Un <span>Buen Negocio</span></h2>
+      <h2 className='head-text' style={{ color: 'var(--white-color)', fontSize: 'calc(20px + 2vmin)' }}>Sé Que Un <span>Buen Diseño</span><br />Significa Un <span>Buen Negocio</span></h2>
 
       <div className='app__profiles'>
         {abouts.map((about, index) => (
@@ -25,7 +26,7 @@ const About = () => {
             key={about.title + index}
           >
             <img src={about.imgUrl} alt={about.title} />
-            <h2 className='bold-text' style={{ marginTop: 20 }}>{about.title}</h2>
+            <h2 className='bold-text' style={{ marginTop: 20, fontWeight: 'bold' }}>{about.title}</h2>
             <p className='p-text' style={{ marginTop: 10 }}>{about.description}</p>
           </motion.div>
         ))};
@@ -34,4 +35,4 @@ const About = () => {
   )
 }
 
-export default About;
+export default AppWrap(About, 'about');
