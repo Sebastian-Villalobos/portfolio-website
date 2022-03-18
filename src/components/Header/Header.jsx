@@ -20,8 +20,8 @@ const Header = () => (
             </div>
           </div>
           <p className="app__desc">
-            Bienvenido a mi humilde Portfolio, te presento aquí un poco de las habilidades que he ido aprendiendo <br />
-            en este arduo camino. Espero tener lo necesario para ese trabajo que tanto ansío. 
+            Bienvenido a mi Portfolio, te presento aquí las habilidades que he ido aprendiendo <br />
+            a lo largo de mi camino. Espero encuentres lo que necesitas para el trabajo que quieres. 
           </p>
         </div>
       </div>
