@@ -15,7 +15,20 @@ const Footer = () => {
   }
 
   return (
-    <div>Footer</div>
+    <>
+      <h2 className='head-text'>Envíame un mensaje</h2>
+
+      <div className='app__footer-cards'>
+        <div className='app__footer-card'>
+          <img src={images.email} alt='email' />
+          <a href='mailto:sebastian.villalob@gmail.com' className='p-text'>sebastian.villalob@gmail.com</a>
+        </div>
+        <div className='app__footer-card'>
+          <img src={images.mobile} alt='phone' />
+          <a href='tel:+54 (3751) 57-7325' className='p-text'>+54 (3751) 57-7325</a>
+        </div>
+      </div>
+    </>
   )
 }
 
