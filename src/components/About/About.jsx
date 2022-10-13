@@ -7,7 +7,7 @@ import './About.scss';
 
 const abouts = [
   { title: 'Desarrollo Front-End', description: 'Creo aplicaciones Web de diseño amigable', imgUrl: images.about01 },
-  { title: 'Diseño UX/UI', description: 'Trabajando en mi camino en UX/UI', imgUrl: images.about02 },
+  { title: 'Diseño Web y para Redes', description: 'Mejorando en UX/UI y en mi experiencia en Diseño', imgUrl: images.about02 },
   { title: 'AutoDidacta', description: 'Determinado con el buen Diseño Web', imgUrl: images.about03 }
 ];
 
