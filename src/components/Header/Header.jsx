@@ -14,9 +14,10 @@ const Header = () => (
           <div className="app__title">
             <div className="app__title-wrapper">
               <div className="app__title-item">Desarrollador Front-End</div>
-              <div className="app__title-item">Desarrollador React</div>
-              <div className="app__title-item">Futuro Diseñador UX/UI</div>
-              <div className="app__title-item">Trainee (Por el momento)</div>
+              <div className="app__title-item">JavaScript y React</div>
+              <div className="app__title-item">Diseñador Autodidacta</div>
+              <div className="app__title-item">Buscando Exp. y Mentores</div>
+              <div className="app__title-item">Creciendo día a día</div>
             </div>
           </div>
           <p className="app__desc">
@@ -32,4 +33,4 @@ const Header = () => (
   </>
 );
 
-export default AppWrap(Header, 'home');
+export default AppWrap(Header, 'inicio');
